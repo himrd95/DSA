@@ -44,7 +44,9 @@ if(process.env.USERNAME === "Himanshu"){
     6
     aabbcc
     5
-    aabcd`);
+    aabcd
+    4
+    aabc`);
 }
 else{
     process.stdin.resume();
