@@ -10,7 +10,7 @@ function runProgram(input){
         }
     }
     function sumIt(e, a) {
-        return e+a
+        return (e+a)
     }
     function getRes(res) {
         if (res.every(isEven)) {
