@@ -3,11 +3,26 @@ function runProgram(input){
     var res = []
     for (var i = 2; i < input.length; i += 2){
         var sum = input[i-1].trim().split(' ').map(Number)[1]
-        var char = input[i].trim().split(' ')
+        var char = input[i].trim().split(' ').map(Number)
         getRes()
     }
     function getRes() {
-        
+        let i = 0;
+        while (i < char.length) {
+            for (let j = 0; j < char.length; j++){
+                if (i !== j) {
+                    // console.log(char[i], char[j])
+                    if (char[i]+char[j] === sum) {
+                        return console.log(i, j)
+                        
+                    }
+                }
+            }
+            if (i === char.length-1) {
+                return console.log(-1, -1)
+            }
+            i++;
+        }
     }
 }
 
