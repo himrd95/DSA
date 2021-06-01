@@ -17,7 +17,7 @@ function runProgram(input) {
 
 if(process.env.USERNAME === "Himanshu"){
     runProgram(`10 3
-    -1 -1 -2 1 -2 4 1 9 3 9`);
+    -1 -1 -2 1 -2 4 1 9 3 10`);
 }
 else{
     process.stdin.resume();
