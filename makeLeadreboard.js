@@ -48,7 +48,7 @@ function runProgram(input){
 if(process.env.USERNAME === "Himanshu"){
     runProgram(`6
     rancho 45 
-    chatur 32
+    chatur 31
     raju 30
     farhan 28
     virus 32
