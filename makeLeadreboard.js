@@ -50,7 +50,7 @@ if(process.env.USERNAME === "Himanshu"){
     rancho 45 
     chatur 31
     raju 30
-    farhan 28
+    farhan 21
     virus 32
     joy 45`);
 }
