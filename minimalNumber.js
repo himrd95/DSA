@@ -34,7 +34,7 @@ if(process.env.USERNAME === "Himanshu"){
     4
     2 1 0 63
     4
-    1 4 4 1
+    1 4 4 12
     4
     5 2 3 3`);
 }
