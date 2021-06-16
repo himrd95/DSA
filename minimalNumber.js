@@ -32,7 +32,7 @@ function runProgram(input){
 if(process.env.USERNAME === "Himanshu"){
     runProgram(`3
     4
-    2 1 10 63
+    2 12 10 63
     4
     11 4 4 12
     4
