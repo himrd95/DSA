@@ -36,7 +36,7 @@ if(process.env.USERNAME === "Himanshu"){
     4
     11 4 4 13
     4
-    5 2 3 3`);
+    5 2 4 3`);
 }
 else{
     process.stdin.resume();
