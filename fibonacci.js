@@ -13,7 +13,7 @@ function runProgram(input) {
 }
 
 if(process.env.USERNAME === "Himanshu"){
-    runProgram(`4`);
+    runProgram(`5`);
 }
 else{
     process.stdin.resume();
