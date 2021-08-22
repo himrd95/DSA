@@ -7,12 +7,14 @@ var largestRectangleArea = function (s) {
 	let count = 0;
 
 	for (let i = 0; i < s.length; i++) {
-		let top = stack[stack.length - 1];
-		if (stack.length === 0 || s[top] <= s[i]) {
+		if (stack.length === 0 || s[stack[stack.length - 1]] <= s[i]) {
 			stack.push(i);
 		} else {
-			console.log(s[top], s[i]);
-			while (stack.length !== 0 || s[top] <= s[i]) {
+			console.log(s[stack[stack.length - 1]], s[i]);
+			while (
+				stack.length !== 0 ||
+				s[stack[stack.length - 1]] <= s[i]
+			) {
 				stack.pop();
 			}
 			stack.push(i);
