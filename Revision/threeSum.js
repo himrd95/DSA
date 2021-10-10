@@ -29,4 +29,4 @@ function threeSum(nums) {
 	}
 	return res;
 }
-console.log(threeSum([-1, 0, 1, 2, -2, 4]));
+console.log(threeSum([-2, 0, 1, 2, -2, 4]));
